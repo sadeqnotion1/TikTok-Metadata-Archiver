@@ -1,0 +1,5 @@
+mkdir -p data/users
+touch data/.gitkeep
+touch data/users/.gitkeep
+git add data/.gitkeep data/users/.gitkeep
+git commit -m "chore: initialize data directories"
