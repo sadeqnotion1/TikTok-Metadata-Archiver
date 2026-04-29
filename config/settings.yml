@@ -1,9 +1,9 @@
 # TikTok Archiver Settings
-download_profile_images: false
+download_profile_images: True
 
 # Rate limiting: Sleep time between processing different users to avoid bans
 sleep_seconds_between_users: 10
 
 # Max videos to extract per user (set to null to attempt all available)
 # Note: TikTok limits large automated extractions, so keeping this low (e.g., 10-30) is safer.
-max_videos_per_user: 15
+max_videos_per_user: null 
