@@ -1,0 +1,63 @@
+name: TikTok Metadata Archiver
+
+on:
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+  schedule:
+    # Runs automatically every 6 hours (cron formatting: Minute Hour Day Month DayOfWeek)
+    - cron: '0 */6 * * *'
+
+# We need write permissions to push the newly collected data back to the repo
+permissions:
+  contents: write
+
+jobs:
+  collect-metadata:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # Caches dependencies to speed up future runs
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Handle Cookies (Optional)
+        # If the TIKTOK_COOKIES secret exists, save it to cookies.txt securely
+        env:
+          TIKTOK_COOKIES: ${{ secrets.TIKTOK_COOKIES }}
+        run: |
+          if [ -n "$TIKTOK_COOKIES" ]; then
+            echo "$TIKTOK_COOKIES" > cookies.txt
+            echo "Cookies configured successfully."
+          else
+            echo "No TIKTOK_COOKIES secret found. Proceeding anonymously."
+          fi
+
+      - name: Run TikTok Collector Script
+        run: python scripts/collect_tiktok_metadata.py
+
+      - name: Clean up sensitive files
+        # Important: Remove cookies before Git tries to look at the directory
+        run: rm -f cookies.txt
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          
+          # Check if there are any changes to commit. If not, exit gracefully.
+          if git diff --staged --quiet; then
+            echo "No changes in data to commit."
+          else
+            git commit -m "chore: auto-update TikTok metadata [skip ci]"
+            git push
+          fi
