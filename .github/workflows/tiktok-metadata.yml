@@ -1,12 +1,10 @@
 name: TikTok Metadata Archiver
 
 on:
-  workflow_dispatch: # Allows manual triggering from the GitHub UI
+  workflow_dispatch:
   schedule:
-    # Runs automatically every 6 hours (cron formatting: Minute Hour Day Month DayOfWeek)
     - cron: '0 */6 * * *'
 
-# We need write permissions to push the newly collected data back to the repo
 permissions:
   contents: write
 
@@ -22,7 +20,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip' # Caches dependencies to speed up future runs
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -30,7 +28,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Handle Cookies (Optional)
-        # If the TIKTOK_COOKIES secret exists, save it to cookies.txt securely
         env:
           TIKTOK_COOKIES: ${{ secrets.TIKTOK_COOKIES }}
         run: |
@@ -41,20 +38,29 @@ jobs:
             echo "No TIKTOK_COOKIES secret found. Proceeding anonymously."
           fi
 
+      - name: Prepare output directories
+        run: |
+          mkdir -p data/users
+
       - name: Run TikTok Collector Script
         run: python scripts/collect_tiktok_metadata.py
 
       - name: Clean up sensitive files
-        # Important: Remove cookies before Git tries to look at the directory
         run: rm -f cookies.txt
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Defensive check: Ensure files actually exist before adding
+          if [ -z "$(find data -type f 2>/dev/null)" ]; then
+            echo "No data files generated. Nothing to commit."
+            exit 0
+          fi
+
           git add data/
-          
-          # Check if there are any changes to commit. If not, exit gracefully.
+
           if git diff --staged --quiet; then
             echo "No changes in data to commit."
           else
