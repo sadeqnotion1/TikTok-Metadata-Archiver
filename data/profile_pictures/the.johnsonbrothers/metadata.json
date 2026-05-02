@@ -1,9 +1,9 @@
 {
   "username": "the.johnsonbrothers",
   "profile_url": "https://www.tiktok.com/@the.johnsonbrothers",
-  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/b01af4dd7d733828f3e5493902ecfac2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=2f092a9c&x-expires=1777860000&x-signature=L84HoFi5lv1IuDzxTFauKT4P3fs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/b01af4dd7d733828f3e5493902ecfac2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=20bb26a8&x-expires=1777878000&x-signature=VBPCa2Zb0b6xMAabqsDHRdA1jIc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
   "content_type": "image/jpeg",
   "sha256": "264b8d65dbc224b3243384fc6c85c4f312a612c5e0ff8379777c9097dc4c02a6",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1777687765
+  "downloaded_at_unix": 1777706755
 }
