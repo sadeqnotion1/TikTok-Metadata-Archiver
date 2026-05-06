@@ -1,9 +1,9 @@
 {
   "username": "chrisinema",
   "profile_url": "https://www.tiktok.com/@chrisinema",
-  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/6c25f1b9d1259bc6d969c9f22f46ad1d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=7fe616d5&x-expires=1778180400&x-signature=Myu%2Fhn%2FxzjHSzPu%2BmBh3idvlGQs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/6c25f1b9d1259bc6d969c9f22f46ad1d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=fecc65af&x-expires=1778205600&x-signature=Pe6sVHf2BUJAbC8%2BMQv97wkfJgs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
   "content_type": "image/jpeg",
   "sha256": "bc35c2be67b46fb040e774c4a9ef89b6c619dafba64edba48d622d777a137b79",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778008249
+  "downloaded_at_unix": 1778033541
 }
