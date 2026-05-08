@@ -1,9 +1,9 @@
 {
   "username": "wintrxn",
   "profile_url": "https://www.tiktok.com/@wintrxn",
-  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/9d54d51885148ec108d9ca12cd995cb7~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=aeeccc3f&x-expires=1778378400&x-signature=%2BYqCc%2B0oPNf7hx%2BPovRHf5ej2Kg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/9d54d51885148ec108d9ca12cd995cb7~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=c521a5bd&x-expires=1778396400&x-signature=8IV%2BtQAJpr4UMUMLpDme4Fd0ElI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
   "content_type": "image/jpeg",
   "sha256": "4418f53960b9a1adb25c60da8d074c9a2ce07dc0caaee61ac5488664200902a3",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778207700
+  "downloaded_at_unix": 1778225139
 }

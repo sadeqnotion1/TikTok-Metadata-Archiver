@@ -1,9 +1,9 @@
 {
   "username": "daniela_avanzini",
   "profile_url": "https://www.tiktok.com/@daniela_avanzini",
-  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/408d15d63535ba0c80bf94de3e64ea1e~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=159ce0d7&x-expires=1778378400&x-signature=odnTDMTu6LcS%2F9%2F7vYmFrpUhYRM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/408d15d63535ba0c80bf94de3e64ea1e~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=0fa8d844&x-expires=1778396400&x-signature=sEq38dV8FCxNRL92GBa171HOwKc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
   "content_type": "image/jpeg",
   "sha256": "42ebfa57e4a4386b512187be8b9388c4ca78b44f97d7896252689260c011e2c4",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778207497
+  "downloaded_at_unix": 1778224940
 }
