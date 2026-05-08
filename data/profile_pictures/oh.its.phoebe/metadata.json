@@ -1,9 +1,9 @@
 {
   "username": "oh.its.phoebe",
   "profile_url": "https://www.tiktok.com/@oh.its.phoebe",
-  "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/b069bc23cbfb955090dec1de7299cc69~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=b06a5e16&x-expires=1778396400&x-signature=VVhCgThTjP5jBu2uYmZFuHLqXaw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/b069bc23cbfb955090dec1de7299cc69~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=84a59e66&x-expires=1778418000&x-signature=050%2FtprPxIrpl%2BbWzd4E52Jp3NM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
   "content_type": "image/jpeg",
   "sha256": "7772012c58a39953cfd559c92c54387cd0714b15f4062fdb16bf81a027104530",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778225075
+  "downloaded_at_unix": 1778246499
 }
