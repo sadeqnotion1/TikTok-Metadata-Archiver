@@ -1,9 +1,9 @@
 {
   "username": "foxnews",
   "profile_url": "https://www.tiktok.com/@foxnews",
-  "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/20496f541383bb160504eb99af38de5a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d8ff63af&x-expires=1778439600&x-signature=bIVIxtzOoF9c%2FTlmflwD3%2BrVgOs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/20496f541383bb160504eb99af38de5a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=e49be50f&x-expires=1778464800&x-signature=vK5C3XN%2BYnsZZ%2Fv1lFzQ%2BIPEuqM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
   "content_type": "image/jpeg",
   "sha256": "1060162e62508fc56d7bb67b954ba891493620378ba5dc762238f710ac2ab192",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778267436
+  "downloaded_at_unix": 1778292985
 }
