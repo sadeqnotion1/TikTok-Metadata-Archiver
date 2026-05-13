@@ -1,9 +1,9 @@
 {
   "username": "imnotthikkvikk",
   "profile_url": "https://www.tiktok.com/@imnotthikkvikk",
-  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/0cf8d38d8a1a8f0f5aa16ee493c63b4d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=caf814db&x-expires=1778785200&x-signature=%2Bh%2BrbmGLxiDOafKOrqb8Qe2zB3M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/0cf8d38d8a1a8f0f5aa16ee493c63b4d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=2b4ce5db&x-expires=1778810400&x-signature=tDD0Ls5nWTP6MOnp7q5W5MquECI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
   "content_type": "image/jpeg",
   "sha256": "0bd80a35331588e56648aa804f780074e45cb3693e8d050244dc71eb451facdf",
   "image_file": "avatar.jpg",
-  "downloaded_at_unix": 1778614975
+  "downloaded_at_unix": 1778639740
 }
